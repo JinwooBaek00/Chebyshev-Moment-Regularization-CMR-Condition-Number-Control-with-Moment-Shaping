@@ -9,5 +9,5 @@ A drop-in spectral regularizer that directly optimizes layer spectra for stable,
 - **Orthogonal invariance**: invariant under \(QWR\); compatible with standard layers/optimizers
 - **κ-stress recovery (illustrative)**: reduces mean layer κ from ~3.9e3 to ~3.4 in 5 epochs and restores test accuracy (~10% → ~86%) on a 15-layer MLP (MNIST) [see paper]
 
-Runs as a single notebook. No setup required on Colab; for local runs, see the first cell (auto-install).  
+Runs as a single notebook.  
 Tested on Python 3.11.
